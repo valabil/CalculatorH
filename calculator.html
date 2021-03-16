@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Calculator</title>
+</head>
+<body>
+
+    <form>
+        <label for="numar1">Primul numar</label><br>      
+        <input type="text" id="numar1" name="numarul1" value=""><br>
+        <label for="numar2">Al doilea numar</label><br>
+        <input type="text" id="numar2" name="numarul2" value=""><br><br>
+        <button onclick="functie2()">Rezultat</button>
+        
+        </form>
+        <script>
+        function functie2(){
+            const value1=document.getElementById("numar1").value;
+            const value2=document.getElementById("numar2").value;
+            const valuare1=parseInt(value1)
+            const valuare2=parseInt(value2)
+            alert(valuare1+valuare2)
+        }
+        
+        
+        </script>
+
+
+
+
+</body>
+</html>
